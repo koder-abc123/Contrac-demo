@@ -1,0 +1,30 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "mock",
+            "request": "launch",
+            "name": "Debug escrow contract - deposit call",
+            "program": "${workspaceFolder}/escrow.clar}",
+            "stopOnEntry": true
+        },
+        {
+            "type": "mock",
+            "request": "launch",
+            "name": "Debug license contract - has valid license call",
+            "program": "${workspaceFolder}/license.clar",
+            "stopOnEntry": true
+        },
+        {
+            "type": "mock",
+            "request": "launch",
+            "name": "Debug fungible token contract - transfer token call",
+            "program": "${workspaceFolder}/fungible.clar",
+            "stopOnEntry": true
+        }
+
+    ]
+}
